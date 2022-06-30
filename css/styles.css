@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
+:root{
+    --color-redbackground: #F03C42;
+    --color-bluebackground: #222374;
+    --color-white:#FFFFFF;
+    --color-graybackground: #CCCCCC;
+    --color-blackbackground: #000000;
+}
+*{ 
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+a,a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
+header{
+    background-color: var(--color-redbackground);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+
+    
+} 
+nav{
+    color:var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+
+} 
+
+nav h1{
+    color:var(--color-white);
+    font-size: 18px;
+    text-align:left;
+    
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+#space{
+    background-color: var(--color-bluebackground);
+    padding: 40px 120PX;
+    width: 100%;
+    max-width: 1200px;
+    height: 418px;
+    margin: 0 auto;
+}
+.container h2{
+    color: var(--color-white);
+}
+.anounce{
+    background-color: var(--color-graybackground);
+    border-radius: 8px;
+}
+
+
+#modalities h2{
+    color: var(--color-redbackground);
+    font-size: 32px;
+}
+#modalities {
+    background-color:var(--color-white);
+    border-style:groove;
+    border-color: var(--color-bluebackground);
+    padding: 40px 120PX;
+    width: 100%;
+    max-width: 1200px;
+    height: 880px;
+    margin: 0 auto;
+
+}
+
+.sports{
+    background-color: var(--color-bluebackground);
+    border-radius: 8px;
+    
+}
+.sports p{
+    padding-left: 20px;
+
+}
+   
+.sports{
+    color:var(--color-white);
+}
+footer{
+    height: 262px;
+    background-color: var(--color-blackbackground);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color:var(--color-white);
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content:space-around;
+    
+}
+    
+
+    
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+    
+
+
